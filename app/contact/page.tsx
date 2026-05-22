@@ -10,9 +10,9 @@ export default function Contact() {
 
         <div style={{ display: "flex", flexDirection: "column" }}>
           {[
-            { label: "Email",    value: "kyle@kylealvares.com",              href: "mailto:kyle@kylealvares.com", arrow: "↗" },
-            { label: "LinkedIn", value: "linkedin.com/in/[handle]",          href: "https://linkedin.com/in/[handle]", arrow: "↗" },
-            { label: "Resume",   value: "Download PDF",                       href: "/resume.pdf", arrow: "↓" },
+            { label: "Email",    value: "hireme@kylealvares.com",   href: "mailto:hireme@kylealvares.com", arrow: "↗" },
+            { label: "LinkedIn", value: "linkedin.com/in/kylealvares", href: "https://linkedin.com/in/kylealvares", arrow: "↗" },
+            { label: "Resume",   value: "Download PDF",              href: "/resume.pdf", arrow: "↓" },
           ].map(({ label, value, href, arrow }) => (
             <a key={label} href={href}
               target={href.startsWith("http") ? "_blank" : undefined}
