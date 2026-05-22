@@ -1,3 +1,5 @@
+"use client";
+
 export default function Projects() {
   return (
     <main style={{ paddingTop: 54 }}>
